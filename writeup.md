@@ -68,8 +68,9 @@ First every picture is downscaled by 2 to improve training time.
  - Fully Connected 300
  - Relu Activation
  - Dropout, rate = 0.25
- - Fully Connected 20
+ - Fully Connected 50
  - Relu Activation
+ - Dropout, rate = 0.1
  - Fully Connected 1
 
 ####2. Attempts to reduce overfitting in the model
